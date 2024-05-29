@@ -1,0 +1,6 @@
+dist
+dist-*
+cabal.project.local
+cabal.project.local~
+.cabal-sandbox/
+cabal.sandbox.config

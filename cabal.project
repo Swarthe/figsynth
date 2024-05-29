@@ -1,0 +1,5 @@
+packages: ./*.cabal
+
+package figsynth
+    executable-stripping: True
+    optimization: 2

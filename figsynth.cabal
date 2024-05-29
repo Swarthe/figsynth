@@ -1,0 +1,71 @@
+cabal-version:      2.4
+name:               figsynth
+version:            1.0.0
+synopsis:           Polygonal synthesizer
+description:        FigSynth is a polygonal synthesis program.
+category:           Audio, Sound
+license:            GPL-3.0-only
+copyright:          (C) 2024 Emil Overbeck
+maintainer:         emil.a.overbeck at gmail dot com
+author:             Emil Overbeck
+homepage:           TODO
+bug-reports:        TODO
+extra-source-files: README.md
+license-file:       LICENSE.txt
+build-type:         Simple
+
+source-repository head
+  type: git
+  location: https://github.com/Swarthe/figsynth
+
+executable figsynth
+    hs-source-dirs:   src
+    main-is:          Main.hs
+    default-language: Haskell2010
+
+    ghc-options:
+        -Wall -Wcompat -Wredundant-constraints
+        -funbox-small-strict-fields
+
+    other-modules:
+          Synth.Server
+        , Synth.Source
+            , Synth.Source.Params
+            , Synth.Source.Polygon
+            , Synth.Source.Buffer
+        , Synth.GUI
+            , Synth.GUI.Common
+            , Synth.GUI.Input
+            , Synth.GUI.Graph
+
+    build-depends:
+          base ^>= 4.16.4.0
+        , vivid ^>= 0.5.2.0
+            , vivid-supercollider ^>= 0.4.1.2
+        , monomer ^>= 1.6.0.1
+            , text ^>= 2.1.1
+            , text-show ^>= 3.10.4
+        , unix ^>= 2.8.5.0
+            , directory ^>= 1.3.8.3
+        , bytestring ^>= 0.11.5.3
+        , vector ^>= 0.13.1.0
+        , managed ^>= 1.0.10
+        , process ^>= 1.6.18.0
+        , data-default ^>= 0.7.1.1
+        , stm ^>= 2.5.3.0
+
+    pkgconfig-depends:
+          opengl
+        , sdl2
+        , glew
+
+    default-extensions:
+          ImportQualifiedPost
+        , LambdaCase
+        , ViewPatterns
+        , NumericUnderscores
+        , BlockArguments
+        , NamedFieldPuns
+        , RecordWildCards
+        , LexicalNegation
+        , OverloadedStrings
