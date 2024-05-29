@@ -10,7 +10,15 @@ Inspiration and references:
   [article](https://note.com/ysuie_o/n/n8ef016b59121) by Fendoap
 - [White paper](https://quod.lib.umich.edu/cgi/p/pod/dod-idx/continuous-order-polygonalwaveform-synthesis.pdf?c=icmc;idno=bbp2372.2016.104;format=pdf)
 
-## Build requirements
+## Installation
+
+```sh
+git clone https://github.com/Swarthe/figsynth
+cd figsynth
+cabal build
+```
+
+Dependencies:
 
 - Cabal
 - GHC
@@ -21,9 +29,13 @@ Inspiration and references:
 See [here](https://github.com/fjvallarino/monomer/blob/main/docs/tutorials/00-setup.md#libraries-sdl2-and-glew)
 for more details.
 
-## Runtime requirements
+### Usage
 
-- The SuperCollider server (`scsynth`)
+```sh
+cabal run
+```
+
+Requires the SuperCollider server to be installed (`scsynth`).
 
 This program has been tested on Arch Linux, and should generally work Unix/POSIX
 systems.
