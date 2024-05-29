@@ -3,6 +3,8 @@
 A polygonal synthesis program. Not particularly useful right now, but very fun
 to use.
 
+https://github.com/Swarthe/figsynth/assets/70660340/e8d1477c-e312-49f4-82d0-3e032e03db93
+
 Inspiration and references:
 - [Video](https://www.youtube.com/watch?v=2PuX7dqKJk0&t=18s) and
   [article](https://note.com/ysuie_o/n/n8ef016b59121) by Fendoap
