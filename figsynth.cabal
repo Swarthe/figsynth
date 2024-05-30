@@ -8,8 +8,8 @@ license:            GPL-3.0-only
 copyright:          (C) 2024 Emil Overbeck
 maintainer:         emil.a.overbeck at gmail dot com
 author:             Emil Overbeck
-homepage:           TODO
-bug-reports:        TODO
+homepage:           https://github.com/Swarthe/figsynth
+bug-reports:        https://github.com/Swarthe/figsynth
 extra-source-files: README.md
 license-file:       LICENSE.txt
 build-type:         Simple
