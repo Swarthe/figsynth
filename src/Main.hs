@@ -17,7 +17,7 @@ main = runManaged do
 
 startupMessage :: String
 startupMessage = "\
-    \FigSynth <https://github.com/Swarthe/figsynth>\n\
+    \FigSynth v1.0.0 <https://github.com/Swarthe/figsynth>\n\
     \This program comes with ABSOLUTELY NO WARRANTY.\n\
     \This is free software, and you are welcome to redistribute\n\
     \it under the conditions of the GPLv3 license.\n\
