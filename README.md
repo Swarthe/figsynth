@@ -5,6 +5,8 @@ to use.
 
 https://github.com/Swarthe/figsynth/assets/70660340/e8d1477c-e312-49f4-82d0-3e032e03db93
 
+*[Link](https://youtu.be/QjLbxx2_6YI) in case the file doesn't work*
+
 Polygonal synthesis is a method of audio synthesis that generates sound derived
 from shapes and figures.
 
