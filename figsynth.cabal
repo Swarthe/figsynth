@@ -39,7 +39,7 @@ executable figsynth
             , Synth.GUI.Graph
 
     build-depends:
-          base ^>= 4.16.4.0
+          base ^>= 4.18.3.0
         , vivid ^>= 0.5.2.0
             , vivid-supercollider ^>= 0.4.1.2
         , monomer ^>= 1.6.0.1
